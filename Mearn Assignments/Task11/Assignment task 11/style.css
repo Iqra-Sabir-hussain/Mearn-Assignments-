@@ -1,0 +1,396 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.contianer
+{
+    max-width: 1200px;
+    width:80%;
+    margin: auto;
+}
+.ornGE
+{
+    color: orange;
+    
+}
+.navbar
+{
+ height: 150px;
+ background-color: rgb(237, 248, 251);
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+.left
+
+{
+  
+  font-size: 30px;
+    
+}
+.navbar-2
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.links li
+{
+    display: inline;
+    padding-left: 20px;
+}
+
+input 
+{
+    padding-top: 10px;
+    width: 12rem;
+}
+.input-feild li{
+    position: absolute;
+    top: 0;
+}
+.search
+{
+    border: 1px solid orange;
+    position: absolute;
+    right: 1.3rem;
+    color: black;
+    background-color: orange;
+    padding: 4px;
+}
+form
+{
+
+ border: 1px solid lightgray;
+ margin-top: 30px;
+ overflow-x: scroll;
+}
+form h1
+   {
+    border:  1px solid lightgray;
+    border-left: 9PX solid orange;
+    padding: 10PX;
+   }
+   .content-part
+   {
+    padding: 20px;
+   }
+    .content-part h2{
+        padding-top: 20px;
+    }
+    .content-part p{
+        color: gray;
+        padding-top: 10PX;
+    }
+    .fa-solid
+    {
+        color: orange;
+    }
+    .inputs-field
+    {
+        margin-left: 20px;
+        
+    }
+    .input-1
+    {
+        width: 30rem;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .input-2
+    {
+        width: 30rem;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .input-3
+
+    {
+        width: 55rem;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .input-4
+    {
+        width: 55rem;
+        margin-bottom: 20px;
+        padding: 20px;
+
+    }
+    .btn-2
+    {
+        padding: 20px;
+        background-color: orange;
+        color: black;
+        width: 20%;
+        border: none;
+       margin-bottom: 20px;
+        
+
+    }
+    .follow-section
+    {
+        border:  1px solid lightgray;
+        display: flex;
+        margin-top: 20px;
+      
+    }
+    .follow
+    {
+    
+        width: 70%;
+        /* height: 500px; */
+        border:  1px solid lightgray;
+        display: flex;
+        flex-wrap: wrap;
+        /* overflow: scroll;    */
+    
+    }
+    .news-letter
+    {
+       
+        width: 30%;
+     
+       
+    }
+    .news-letter h1
+    {
+        border:  1px solid lightgray;
+        border-left: 9PX solid orange;
+        padding: 10PX;
+    }
+
+    .news-letter p {
+        padding-top: 20px;
+        padding: 20px;
+        
+    }
+   .email-feild 
+    {
+    padding: 10px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+    
+    }
+    .btn-3
+    {
+        padding: 10px;
+        background-color: orange;
+        border:  1px solid lightgray;
+        color: black;
+       
+    }
+    
+
+    /* .follow p ::after
+    {
+         display:block;
+        content: '\f09a';
+        font-weight: 900;
+        font-family:  'fontawesome 6.2.0 free';
+        
+    } */
+   .follow h1
+    {
+        
+        width: 800px;
+        border:  1px solid lightgray;
+        border-left: 9PX solid orange;
+        padding: 10PX; 
+    }
+  
+       
+    .follow p
+    {
+      
+        width:250px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     
+        
+        
+    }
+    
+ 
+    
+    .fa-facebook
+
+    {
+        padding: 30px;
+        height: 78px;
+        width: 50px;
+        color:white;
+        background-color:rgba(12, 46, 133, 0.993) ;
+    }
+    .fa-twitter
+    {
+        padding: 30px;
+        height: 78px;
+        width: 50px;
+        color:white;
+        background-color:rgba(8, 124, 182, 0.993) ;
+    }
+    .fa-linkedin
+    
+    {
+        padding: 30px;
+        height: 78px;
+        width: 50px;
+        color:white;
+        background-color:rgba(23, 98, 136, 0.993) ;  
+    }
+    .fa-instagram
+    {
+        padding: 30px;
+        height: 78px;
+        width: 50px;
+        color:white;
+        background-color:rgba(194, 51, 192, 0.993) ;   
+    }
+    .fa-youtube
+    {
+        padding: 30px;
+        height: 78px;
+        width: 50px;
+        color:white;
+        background-color:rgba(163, 7, 7, 0.993) ;   
+
+    }
+ .fa-vimeo
+ {
+    padding: 30px;
+    height: 78px;
+    width: 50px;
+    color:white;
+    background-color: rgb(20, 138, 216);
+ }
+ footer
+ {
+    height: 500px;
+    background-color: rgb(18, 14, 10);
+ }
+ 
+ .last-section
+ {
+
+  
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 80px;
+    padding: 10px;
+   
+ }
+ .part-1
+ {
+  
+    width: 300px;
+    /* margin-left: 10px; */
+    color: white;
+    /* padding: 30px; */
+    /* padding: 20px; */
+    
+ }
+ .part-1 h1
+ {
+ padding-top: 30px;
+ }
+  .part-1 h2
+ {
+padding-top: 10px;
+padding-bottom: 10px;
+ }
+ .part-1 li{
+    display: inline;
+    margin-left: 10px;
+    background-color:black;
+    font-size: 30px;
+    
+
+ }
+  .part-1 p
+  {
+    padding-top: 20px;
+    color: gray;
+  }
+ .part-2
+ {
+    
+    width: 350px;
+    margin-left: 10px;
+   padding-top: 25PX;
+    color: white;
+ }
+ .part-2 h1{
+    color: white;
+    padding-bottom: 10px;
+ }
+ .part-2 p{
+    padding-top: 10px;
+    color: gray;
+    padding-bottom: 10px;
+ }
+ .btn-4
+ {
+    background-color:yellow ;
+    padding: 10px;
+    border: none;
+  
+ }
+ .part-3
+ {
+    width: 300px;
+
+    margin-left: 10px; 
+ }
+ .part-3 h1{
+    color: white;
+   padding-bottom: 70px;
+   padding-top: 10px;
+ }
+ .part-3{
+    padding: 10px;
+   
+ }
+ span
+ {
+ 
+  color: white;
+    background-color: lightslategray;
+  padding-left: 5px;
+
+
+ }
+ 
+ .part-4
+ {
+    width: 300px;
+    
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+ .part-4 h1
+ {
+color: white;
+padding-bottom: 60px;
+ }
+
+.footer-last p
+{
+    height:50px;
+  background-color: rgb(48, 47, 47);
+  color: yellow;
+  text-align: center;
+  padding-top: 40px;
+    
+}
