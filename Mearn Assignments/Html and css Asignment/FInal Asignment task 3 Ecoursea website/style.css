@@ -1,0 +1,881 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body {
+
+    font-family: "Poppins", sans-serif;
+
+}
+.navbar1{
+    border-bottom: 1px solid gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  
+}
+
+h1 {
+    line-height: 1.2;
+    color: #44425A;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-decoration,
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.row-part1 {
+    display: flex;
+
+}
+
+.h-content {
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #6C6A74;
+
+    font-size: 20px;
+}
+
+
+
+.navbar {
+    display: flex;
+
+
+}
+
+.row2 {
+    background-color: rgb(249, 249, 249);
+    padding: 30px;
+    padding-right: 50px;
+}
+
+.col-1 {
+    display: flex;
+
+}
+
+.col-1 span {
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+.fa-angle-down {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.fa-book-open {
+    font-size: 2rem;
+}
+
+.col-2 a {
+    padding-left: 30px;
+    color: #44425A;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.links {
+    padding-top: 30px;
+    font-size: 18px;
+
+}
+
+.btn1 {
+    margin-left: 90px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+}
+
+.main {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.main img {
+    width: 100%;
+}
+
+.main-content {
+    position: absolute;
+    top: 15rem;
+    left: 170px;
+    color: white;
+
+}
+
+.main-content h1 {
+    font-size: 90px;
+    color: white;
+
+
+}
+
+.main-content h5 {
+    font-size: 30px;
+}
+
+.main-content a {
+    font-size: 17px;
+
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contaner {
+    max-width: 1200px;
+    width: 70%;
+    margin: auto;
+}
+
+.row3 {
+   margin-top: 400px;
+}
+
+.img-2 {
+    height: 400px;
+}
+
+.row3 {
+    display: flex;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+
+.col-4 h5 {
+    color: orangered;
+    font-size: 30px;
+}
+
+.col-4 a {
+    background-color: orangered;
+    color: white;
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.img-4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.main-imgs-content {
+    margin-top: 90px;
+}
+
+.row4-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row4-content h5 {
+    font-size: 30px;
+}
+
+.row4-content h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.row5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+ 
+}
+
+.col {
+   
+    position: relative;
+   
+
+
+}
+
+.cat-item a {
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    color: white;
+}
+
+.row6-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.row6-content h5 {
+    font-size: 30px;
+    color: orangered;
+}
+
+.row6-content h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.img-content img {
+    height: 200px;
+    width: 280px;
+}
+
+.row7 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-courses {
+    height: 400px;
+    width: 300px;
+
+
+
+}
+
+.img-content {
+    padding: 10px;
+}
+
+.col-content {
+    background-color: #d5d5d6;
+    padding: 20px;
+
+
+}
+
+.top {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.bottom {
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-content h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-content i {
+    color: orangered;
+}
+
+.row8 {
+    display: flex;
+
+
+}
+
+.col-need-any-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+
+}
+
+.imag-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./registration.jpg), no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.need-content-headings h5 {
+    padding-top: 30px;
+    color: orangered;
+    font-size: 20px;
+}
+
+.need-content-headings h1 {
+    padding-top: 30px;
+
+}
+
+.col-need-any-content p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+
+.col-need-any-content li {
+    padding-top: 10px;
+}
+
+.col-need-any-content li i {
+    color: orangered;
+}
+
+.col-sign-up-now {
+    padding-top: 30px;
+
+}
+
+.sign-up-h {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.form {
+    background-color: orangered;
+
+    height: 250px;
+    padding: 20PX;
+
+
+
+}
+
+.f-input {
+    padding-top: 10px;
+}
+
+.f-input input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+.options {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: #44425A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ############  TEACHERS SECTION ########## */
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-center h5 {
+    font-size: 30px;
+    color: orangered;
+}
+
+.team-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bg-secondary {
+    background-color: rgb(244, 240, 240);
+    text-align: center;
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+.testomianl {
+    margin-top: 90px;
+    padding: 90px;
+    font-family: "Poppins", sans-serif;
+}
+
+.testimonal-text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonal-text-center h5 {
+    color: orangered;
+}
+
+.text-center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.text-center-content img,
+h5,
+span {
+    padding-top: 5px;
+}
+
+.text-center-content i {
+    color: orangered;
+}
+
+/* ########## Blog #### */
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-text :first-child {
+    color: orangered;
+}
+
+.blog-imgs {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.blog-item img {
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+
+    background-size: cover;
+}
+
+.blog-item {
+    position: relative;
+
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    padding: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-content :last-child {
+    color: orangered;
+}
+
+footer {
+    background-color: #29292b;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    /* background-color: rgb(45, 42, 42); */
+    color: white;
+    margin-top: 90px;
+}
+
+.left-content {
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.right-content {
+    margin-top: 30px;
+    padding-top: 20px;
+    width: 40%;
+
+}
+
+.get-in-touch p {
+    padding-top: 20px;
+}
+
+.icons {
+
+    margin-top: 20px;
+
+}
+
+.icons a {
+    border: 1px solid white;
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.our-courses-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-courses {
+    margin-left: 60px;
+}
+
+.our-courses h5,
+a {
+    padding-top: 10px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    width: 60%;
+    padding: 10px;
+    height: 50px;
+}
+
+.input-group-append button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 200%;
+margin-top: 20px;
+    height: 50px;
+}
+
+.right-content h5 {
+    color: orangered;
+    letter-spacing: 5px;
+}
+
+.our-courses h5 {
+    color: orangered;
+    letter-spacing: 5px;
+}
+
+.get-in-touch h5 {
+    color: orangered;
+    letter-spacing: 3px;
+}
+
+/* ####### footer-end ####### */
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer-right li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-orange {
+    color: orangered;
+}
+
+/* ######### About page ####### */
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./page-header.jpg), no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+.About-content
+{
+    color: white;
+     padding-top: 60px;
+}
+.About-content h3{
+    font-size: 50px;
+}
+.content
+{
+    display: flex;
+}
+.content i{
+    padding-left: 30px;
+}
+.row{
+    margin-top: 150px;
+}
+
+
+/* teacher section row2 */
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+/* ##### form contact##### */
+.form-contact
+{
+    margin-top: 200px;
+}
+.text-center-contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-center-contact h5{
+    font-size: 30px;
+    color: orangered;
+}
+.bg-grey
+{
+    background-color: rgb(189, 189, 189);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.contact-form
+{
+    padding-top: 50px;
+}
+.control-group input{
+   width: 90%;
+   padding: 20px;
+   margin-left: 30px;
+   border-radius: 10px;
+   border: none;
+ 
+}
+.control-group textarea
+{
+    width: 90%;
+    padding: 20px;
+    margin-left: 30px;
+    height: 150px;
+}
+#name 
+{
+    margin-bottom: 10px;
+}
+#email
+{
+    margin-bottom: 10px;
+}
+#subject
+{
+    margin-bottom: 10px; 
+}
+#sendMessageButton
+{
+    color: orangered;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+.options-blog{
+    
+   
+
+  font-size: 20px;
+  color: gray;
+ 
+}
+/* ####### Detail START ##### */
+.row{
+
+width: 100%;
+display: flex;
+justify-content: space-between;
+    
+}
+.img-1{
+    height: 200px;
+  
+}
+.col-i{
+   width: 60%;
+ 
+}
+
+.img-p-section{
+    width: 100%;
+}
+
+.img-p-section img{
+    width: 100%;
+}
+
+/* ###### col 2 #### */
+.john-img
+{
+    background-color: rgb(60, 57, 57);
+  border-radius: 10px;
+  text-align: center;
+
+  width: 400px;
+padding: 20px 10px;
+    
+  align-items: center;
+
+ 
+}
+
+.col-0{
+    width: 35%;
+}
+
+.john-img img{
+    border-radius: 50px;
+    width: 90px;
+    margin-top: 30px;
+
+}
+
+.john-img{
+    width: 100%;
+}
+.john-img h3{
+    color: orangered;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.john-img p{
+    padding: 20px 0; 
+    font-size: 20px;
+    color: white; 
+   
+    
+}
+.input-group
+{
+    position: relative;
+}
+.input-group-icon
+{
+    position: absolute;
+    top: 30px;
+    left: 80%;
+    font-size: 30px;
+    color: orangered;
+}
+.input-group input{
+    width: 400px;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .badge
+{
+    color: orangered;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    color: white;
+   
+}
+.badge
+{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 40px;
+    text-align: center;
+}
+li
+
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+.text-grey
+{
+    background-color: rgb(52, 47, 47);
+   padding: 10px;
+   color: white;
+   border-radius: 10px;
+   margin-top: 30px;
+  
+}
+.paragraph
+{
+    margin-top: 30px;
+  
+}
