@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <form name="form" id="form" class="form">
+
+            <div class="form-control">
+                <label for="title">Title </label>
+
+                <input type="text" id="title" name=title; placeholder="Enter title" maxlength="31"
+                    onkeypress='return ((event.charCode >= 65 && event.charCode <= 90)||(event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))||(event.charCode==46)'
+                    onkeyup="error()">
+
+                <p id="show"></p>
+                <p id="INP"> </p>
+            </div>
+            <div class="form-control">
+                <label for="description">description</label>
+
+                <textarea id="description" name="description" maxlength="500" cols="30" rows="10"
+                    onkeypress="function fordescription()" onkeyup="errorMessage()"
+                    placeholder="Enter description"></textarea>
+
+            
+                <p id="show2"></p>
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="price">Price</label>
+
+                <input type="number"  id="inp"  onkeyup="priceError()">
+                <p id="show3"></p>
+                <P id="PRICE"> </P>
+
+            </div>
+            <div class="btn">
+                <button class="btn1" type="button" onclick="valueGet()"  >ADD</button>
+                <button class="btn2">Cancel</button>
+            </div>
+
+        </form>
+
+    </div>
+    <!-- <button class="btnn" onclick="checkValidation()">button</button> -->
+    <!-- // card data -->
+    <div class="cards" id="cards">
+        <!-- <div class="card">
+            <div class="elipse">
+                <div class="box">
+                    <ul id="box">
+                        <li>view</li>
+                        <li>edit</li>
+                        <li id  onclick = "deleteCARD(yhis.id)">delete</li>
+                    </ul>
+                </div>
+
+                <i class="fa-solid fa-ellipsis-vertical" onclick="showbox()"> </i>
+            </div>
+            <div class="content-data">
+                <h3>Title</h3>
+                <h3>Description</h3>
+                <h3>price</h3>
+            </div>
+
+            <div class="icons">
+
+
+
+                <button class="card-btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+
+
+                <i class="fa-regular fa-comment fa-lg" onclick="comnt_show()"></i><span> comment</span>
+
+
+                <div id="data" class="sel">
+                    <input type="text" class="data">
+                </div>
+
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+
+
+   
+    
+
+
+</body>
+
+</html>

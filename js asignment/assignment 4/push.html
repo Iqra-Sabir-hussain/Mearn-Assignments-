@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>push appends an element to the end.</p>
+  <input type="text" placeholder="Enter your name" id="form1">
+  <input type="submit" value="Submit" onclick="myFunction()">
+  <script>
+
+    function myFunction() {
+      let v = ["iqra", "sidra", "khan2", "khan"];
+      var a = document.getElementById("form1").value;
+      v.push(a);
+      document.write(v)
+      console.log(v)
+      console.log(v.push(a))
+
+
+    }
+  </script>
+
+</body>
+
+</html>

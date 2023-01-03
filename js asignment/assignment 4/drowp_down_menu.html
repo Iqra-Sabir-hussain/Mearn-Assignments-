@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div   id="selection"  style="text-align: center;" >
+        <select id = "myList"  >  
+            <option value> ---Select item--- </option>  
+            <option value="1"> push </option>  
+            <option value="2"> pop </option>  
+            <option value="3"> shift </option>  
+            <option value="4"> unshift </option>  
+            <option value="5"> length </option>  
+        
+            </select>  
+    </div>
+    
+<div class="inputs" style="margin-top: 30px; text-align: center; "   >
+    <label for="">Enter the text</label>
+    <input type="text" id="input1">
+    <br><br><br><br>
+    <button onclick="myFunction()" >button</button>
+</div>
+   <P id="text"></P>    
+<script>
+
+
+
+var Array1 = [];
+var Array2 = ['iqra','sabir',"husaain"];
+
+
+function push()
+{
+
+var  a = document.getElementById("input1").value;
+Array1.push(a);
+console.log(Array1);
+document.getElementById("text").innerHTML = Array1;
+
+}
+
+function pop()
+{
+    var a =document.getElementById('input1').value
+    Array1.pop(a);
+    
+    document.getElementById('text').innerHTML=Array1;
+}
+function shift() {
+      var a = document.getElementById("input1").value;
+      Array1.shift(a);
+      document.getElementById("text").innerHTML = Array1;
+
+    }
+    function unshift() {
+      var a = document.getElementById("input1").value;
+      Array1.unshift(a);
+      document.getElementById("text").innerHTML = Array1;
+    }
+    function unshift() {
+      var a = document.getElementById("input1").value;
+      Array1.unshift(a);
+      document.getElementById("text").innerHTML = Array1;
+    }
+function length()
+{
+    
+   let lenth1=Array1.length;
+      document.getElementById("text").innerHTML =lenth1;   
+}
+
+
+
+
+
+
+function myFunction() {
+     var check=document.getElementById("myList").value;
+if(check == 1){
+  push();
+     }
+else if(check ==2){
+
+    pop();
+}
+     
+else if(check ==3){
+
+    shift();
+}
+     
+else if(check ==4){
+
+    unshift();
+}else if(check ==5){
+    length();
+
+}
+else{
+    alert('No')
+}
+   
+}
+
+
+    
+</script>
+</body>
+</html>

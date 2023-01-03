@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         var myFunction= function(x) {
+//   console.log("Unsorted array " + x);
+//   let t = x.sort((a, b) => a - b);
+//   console.log("Sorted array " + t);
+//   let t_1 = t.length - 2;
+//   console.log("Second Larhest Number is " + t[t_1]);
+// }
+
+// myFunction([10, 4, 3, 6, 5, 1, 9, 3, 11]);
+
+var arr = ["apple", "mango", "apple", 
+
+            "orange", "mango", "mango"];
+ 
+
+    function removeDuplicates(arr) {
+
+        return arr.filter((item, 
+
+            index) => arr.indexOf(item) === index);
+
+    }
+ 
+
+    console.log(removeDuplicates(arr));
+    </script>
+</body>
+</html>
+
+<!-- var myFunction= function(x) {
+    if(x.length -1 >= 1){
+  console.log("Unsorted array " + x);
+    let t = x.sort((a, b) => a - b);
+    console.log("Sorted array " + t);
+    let t_1 = t.length - 2;
+    console.log("Second Larhest Number is " + t[t_1]);
+    myFunction(x.splice(1));
+  }
+  }
+  
+  myFunction([10, 4, 3, 6, 5, 1, 9, 3, 11]); -->
+
+
+
+  <!-- var myFunction= function(x) {
+    console.log("Unsorted array " + x);
+    let t = x.sort((a, b) => a - b);
+    console.log("Sorted array " + t);
+    let t_1 = t.length - 2;
+    console.log("Second Largest Number is " + t[t_1]);
+  } -->
+
+
+
+  <!-- var forArr = ['8', '17', '25', '42','67'];
+
+var recursive_function = function(array){
+  if(array.length > 0){
+    if(array.length === 2){
+        console.log(array[0])
+    }
+    recursive_function(array.slice(1))
+  }
+}
+
+recursive_function(forArr) -->
+
+
+<!-- function recursivearray(array) {
+    if (array.length > 0) {
+      console.log(array.shift());
+      recursivearray(array);
+    }
+  }
+  recursivearray(forArr); -->
